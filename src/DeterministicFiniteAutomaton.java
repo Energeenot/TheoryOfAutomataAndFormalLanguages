@@ -12,7 +12,5 @@ public class DeterministicFiniteAutomaton extends Automat{
 
     @Override
     public void state() {
-//        if ()
-//        return "Было в начальном состоянии";
     }
 }
