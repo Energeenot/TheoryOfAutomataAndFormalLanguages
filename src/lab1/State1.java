@@ -1,4 +1,8 @@
-public class State1 extends StateDecorator{
+package lab1;
+
+
+
+public class State1 extends StateDecorator {
 
     public State1(Automat automat){this.automat = automat;}
     @Override

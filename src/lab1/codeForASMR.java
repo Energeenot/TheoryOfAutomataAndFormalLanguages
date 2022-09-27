@@ -1,9 +1,11 @@
+package lab1;
+
 import java.util.Scanner;
 
 public class codeForASMR {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        String str1 = sc.next();
+        Scanner scanner = new Scanner(System.in);
+        String str1 = scanner.next();
         str1 += 'A';
         int x = 0;
 

@@ -1,4 +1,7 @@
-public class DeterministicFiniteAutomaton extends Automat{
+package lab1;
+
+
+public class DeterministicFiniteAutomaton extends Automat {
 
     public DeterministicFiniteAutomaton() {
         description1 = """

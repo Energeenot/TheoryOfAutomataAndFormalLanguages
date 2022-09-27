@@ -1,6 +1,6 @@
-import java.util.Objects;
+package lab1;
 
-public class State0 extends StateDecorator{
+public class State0 extends StateDecorator {
     public State0(Automat automat){this.automat = automat;}
     @Override
     public void state() {
@@ -24,8 +24,8 @@ public class State0 extends StateDecorator{
         test.DFA.state();
     }
 
-    @Override
-    public String getDescription1() {
-        return automat.getDescription1();
-    }
+//    @Override
+//    public String getDescription() {
+//        return automat.getDescription();
+//    }
 }

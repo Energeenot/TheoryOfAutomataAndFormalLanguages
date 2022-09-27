@@ -1,3 +1,5 @@
+package lab1;
+
 import java.util.Scanner;
 
 public class test {
@@ -13,8 +15,9 @@ public class test {
         str1 = scanner.nextLine();
         str1 += "1";
         input = str1.split("(?!^)");
-        DFA = new State0(DFA);
-        DFA.state();
+        Automat dfa = new DeterministicFiniteAutomaton();
+        dfa = new State0(dfa);
+        dfa.state();
         // 1001, 11
     }
 }
