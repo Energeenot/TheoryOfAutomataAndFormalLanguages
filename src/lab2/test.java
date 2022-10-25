@@ -22,7 +22,8 @@ public class test {
         Automat jautomat = new JustAutomat();
         jautomat = new s1(jautomat);
         jautomat.state();
-        System.out.println(Arrays.toString(print));
+        System.out.println(str1);
+//        System.out.println(Arrays.toString(print));
 //        for (int i = 0; i < str1.length(); i++){
 //            System.out.print(print[i]);
 //            System.out.print(" ");
